@@ -9,7 +9,8 @@ const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const cors=require('cors');
 
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: ['http://localhost:5173',
+  'https://ai-gateway-self-ten.vercel.app']
 }));
 
 app.use(express.json());
