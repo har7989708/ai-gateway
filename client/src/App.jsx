@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_URL = 'http://localhost:3001';
+const API_URL =  'https://your-app.up.railway.app';
 const API_KEY = 'testuser123'; // hardcoded for now
 
 export default function App() {
